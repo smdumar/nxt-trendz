@@ -1,0 +1,9 @@
+.products-container{
+    padding: 10px;
+}
+
+@media (min-width:768px) {
+    .products-container{
+        padding: 20px;
+    }
+}

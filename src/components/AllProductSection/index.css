@@ -1,0 +1,90 @@
+.products-loader-container {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .all-product{
+    margin-top: 30px;
+  }
+   .all-product-section-ul-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 30px;
+    margin-left: -13px;
+  }
+  .all-product-section-noProduct-failureView{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 35px;
+    line-height: 1;
+  }
+  .all-product-section-noProduct-failureViewImage{
+    width: 50%;
+  }
+  .all-product-section-noProduct-failure-heading{
+    color:#12022f ;
+  }
+  .all-product-section-noProduct-failure-para{
+    color:#475569 ;
+    font-size: 19px;
+    width: 85%;
+    font-weight: 500;
+  }
+
+  @media (min-width: 768px){
+    .all-product{
+      margin-top: 40px;
+    }
+    .all-product-section-ul-container {
+      margin-left: -14px;
+      gap: 15px 31px;
+    }
+    .all-product-section-failure-heading{
+      color:#12022f ;
+      font-size: 35px;
+    }
+    .all-product-section-failure-para{
+      color:#475569 ;
+      font-size: 30px;
+      
+      
+    }
+    
+  }
+
+  @media (min-width:992px) {
+    
+    .all-products-page{
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .filterGroup{
+      flex: 2;
+      position: sticky;
+      top: 3%;
+    }
+    .allProduct{
+      flex: 4;
+    }
+    .all-product{
+      margin-top: -15px;
+    }
+    .all-product-section-filter-group{
+      flex: 1;    
+    }
+    .all-product-section-productCard{
+      flex: 3;
+    }
+    .all-product-section-ul-container {
+      margin-left: -34px;
+      gap: 15px 10px;
+    }
+
+  }
+  

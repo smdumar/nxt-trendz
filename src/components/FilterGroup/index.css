@@ -1,0 +1,151 @@
+*{
+    list-style-type: none;
+}
+.filterGroup-section{
+    display: flex;
+    flex-direction: column;
+
+}
+.filterGroup-searchContainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    cursor: pointer;
+    background-color: 64748b;
+    padding: 0px 15px;
+    border-radius: 5px;
+}
+.filterGroup-SearchInput{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #64748b;
+}
+.filterGroup-searchIcon{
+    width: 25px;
+    height: 25px;
+}
+.filterGroup-ulContainer{
+    padding-inline-start: 0;
+}
+.filterGroup-categoryContainer{
+    letter-spacing: 1px;
+}
+.filterGroup-categoryHeading{
+    color: #64748b;
+    font-size: 25px;
+}
+.filterGroup-categoryList{
+    color: #64748b;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 600;   
+    cursor: pointer;
+    width: fit-content;
+}
+.active{
+    color: #0967d2  ;
+    font-size: 20px;
+    font-weight: 700;
+}
+.filterGroup-ratingContainer{
+    color: #64748b;
+    font-weight: 600;
+}
+.filterGroup-ratingHeading{
+    color: #64748b;
+    font-size: 25px;
+}
+.filterGroup-ratingList{
+    display: flex;
+    align-items: center;
+    gap: 0px 25px;
+    line-height: 0;
+    cursor: pointer;
+    
+}
+.filterGroup-ratingImage{
+    width: 35%;
+}
+.filterGroup-clearBtn{
+    background-color: #0967d2;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 45px;
+    color: #fff;
+    margin-top: 15px;
+
+}
+
+@media (min-width:768px){
+    .filterGroup-categoryHeading{
+        font-size: 33px;
+    }
+    .filterGroup-categoryList{
+        font-size: 28px;
+        line-height: 1.7;
+        font-weight: 640;   
+    }
+    .filterGroup-ratingHeading{
+        font-size: 33px;
+    }
+    .filterGroup-ratingList{
+        line-height: 1;
+    }
+    .filterGroup-ratingPara{
+        font-size: 20px;
+        font-weight: 750;
+    }
+    .filterGroup-clearBtn{
+        border-radius: 5px;
+        width: 120px;
+        height: 55px;
+        margin-top: 15px;
+        font-size: 20px;    
+    }
+}
+
+@media (min-width:992px) {
+    .filterGroup-searchContainer{
+        width: 80%;
+    }
+    .filterGroup-SearchInput{
+        height: 45px;
+    }
+    .filterGroup-categoryHeading{
+        font-size: 30px;
+    }
+    .filterGroup-categoryList{
+        font-size: 23px;
+        line-height: 1.7;
+        font-weight: 640;   
+    }
+    .filterGroup-ratingHeading{
+        font-size: 33px;
+    }
+    .filterGroup-ratingList{
+        line-height: 0;
+    }
+    .filterGroup-ratingImage{
+        width: 60%;
+    }
+    .filterGroup-ratingPara{
+        font-size: 20px;
+        font-weight: 750;
+    }
+    .filterGroup-clearBtn{
+        color: #0967d2;
+        font-weight: 600;
+        background-color: transparent;
+        border: 3px solid #0967d2;
+        border-radius: 5px;
+        width: 120px;
+        height: 55px;
+        margin-top: 15px;
+        font-size: 15px;
+    
+    }
+
+}
+

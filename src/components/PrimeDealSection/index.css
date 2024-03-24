@@ -1,0 +1,33 @@
+.prime-product-section-ul-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 0px;
+    padding-inline-start: 0.5;
+  }
+  .prime-product-section-heading{
+    color: #64748b;
+  }
+  .prime-deal-banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 25px 0px;
+  }
+  .prime-deal-banner{
+    width: 100%;
+  }
+
+@media (min-width: 768px) {
+  .prime-product-section-ul-container {
+    margin-left: -5px;
+    gap: 15px 34px;
+  }  
+}
+
+@media (min-width: 992px) {
+  .prime-product-section-ul-container {
+    margin-left: -30px;
+    gap: 15px 15px;
+}
+}

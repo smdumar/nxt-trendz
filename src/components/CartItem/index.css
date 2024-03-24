@@ -1,0 +1,128 @@
+.cartItem-page{
+    display: flex;
+    flex-direction: column;  
+
+}.cartItem-container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    gap: 0px 15px;
+}
+.cartItem-img{
+    height: 100px;
+    width: 100px;
+}
+.cartItem-details-container{
+    line-height: 1;
+}
+.cartItem-productTitle{
+    font-size: 18px;
+    color: #171f46;
+}
+.cartItem-brandAndAvailability-container{
+    display: flex;
+    align-items: center;
+    gap: 0px 15px;
+}
+.cartItem-productBrand{
+    font-size: 15px;
+    font-weight: 500;
+    color: #594d6d;
+}
+.cartItem-priceAndAvailability-container{
+    display: flex;
+    align-items: center;
+    gap: 0px 17px;
+    margin-top: -10px;
+}
+.cartItem-price{
+    color: #171f46;
+    font-size: 15px;
+    font-weight: 600;
+}
+.cartItem-productStock{
+    font-size: 13px;
+    color: green;
+}
+.cartItem-quantity{
+    color: #171f46;
+    font-size: 15px;
+    font-weight: 500;
+}
+.cartItem-deleteIcon-container{
+    margin-left: auto;
+}
+.cartItem-deleteIcon{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.cartItem-cartItemSummary-container{
+    align-self: flex-start;
+}
+
+@media (min-width:768px) {
+    .cartItem-img{
+        height: 175px;
+        width: 175px;
+    }
+    .cartItem-details-container{
+        line-height: 1.5;
+    }
+    .cartItem-productTitle{
+        font-size: 23px;
+    }
+    .cartItem-productBrand{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .cartItem-price{
+        font-size: 20px;
+        font-weight: 650;
+    }
+    .cartItem-productStock{
+        font-size: 18px;
+    }
+    .cartItem-deleteIcon{
+        height: 30px;
+        width: 30px;
+    }
+    .cartItem-quantity{
+        font-size: 20px;
+        font-weight: 650;
+    }
+  }
+
+  @media (min-width:992px) {
+    .cartItem-img{
+        height: 200px;
+        width: 200px;
+    }
+    .cartItem-details-container{
+        line-height: 1.5;
+    }
+    .cartItem-productTitle{
+        font-size: 25px;
+    }
+    .cartItem-productBrand{
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .cartItem-price{
+        font-size: 22px;
+        font-weight: 650;
+    }
+    .cartItem-productStock{
+        font-size: 20px;
+    }
+    .cartItem-deleteIcon{
+        height: 35px;
+        width: 35px;
+    }
+    .cartItem-quantity{
+        font-size: 22px;
+    }
+  }

@@ -1,0 +1,105 @@
+.similarProductItem-list{
+    border-radius: 12px;
+    padding: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    cursor: pointer;    
+    margin-top: 15px;
+}
+.similarProductItem-img{
+    border-radius: 7px;
+    width: 100%;
+}
+.similarProductItem-title{
+    font-size: 22px;
+    color: #171f46;
+}
+.similarProductItem-brand{
+    font-size: 20px;
+    color: #616e7c;
+
+}
+.similarProductItem-priceAndRatingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -5px;
+}
+.similarProductItem-price{
+    color: #171f46;
+    font-size: 20px;
+    font-weight: bold;
+}
+.similarProductItem-ratingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;    
+    background-color: #3b82f6;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+.similarProductItem-rating{
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.similarProductItem-ratingImg{
+    width: 15px;
+    margin: 2px 0px 0px 5px;
+}
+
+@media (min-width:768px) {
+    .similarProductItem-list{
+        width: 49%;
+    }
+    .similarProductItem-title{
+        font-size: 25px;
+    }
+    .similarProductItem-brand{
+        font-size: 22px;    
+    }
+    .similarProductItem-price{
+        font-size: 23px;
+    }
+    .similarProductItem-ratingContainer{
+        padding: 18px 10px;
+    }
+    .similarProductItem-rating{
+        font-size: 20px;
+    }
+    .similarProductItem-ratingImg{
+        width: 25px;
+        margin: 2px 0px 0px 5px;
+    }
+}
+
+@media (min-width:992px) {
+    .similarProductItem-list{
+        width: 32%;
+    }
+    .similarProductItem-title{
+        font-size: 25px;
+    }
+    .similarProductItem-brand{
+        font-size: 22px;    
+    }
+    .similarProductItem-price{
+        font-size: 23px;
+    }
+    .similarProductItem-ratingContainer{
+        padding: 18px 10px;
+    }
+    .similarProductItem-rating{
+        font-size: 20px;
+    }
+    .similarProductItem-ratingImg{
+        width: 25px;
+        margin: 2px 0px 0px 5px;
+    }
+}
