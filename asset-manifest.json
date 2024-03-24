@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/smdumar/static/css/main.ec41864a.css",
-    "main.js": "/smdumar/static/js/main.ecf6ba96.js",
-    "index.html": "/smdumar/index.html",
-    "main.ec41864a.css.map": "/smdumar/static/css/main.ec41864a.css.map",
-    "main.ecf6ba96.js.map": "/smdumar/static/js/main.ecf6ba96.js.map"
+    "main.css": "/static/css/main.ec41864a.css",
+    "main.js": "/static/js/main.9ac7f740.js",
+    "index.html": "/index.html",
+    "main.ec41864a.css.map": "/static/css/main.ec41864a.css.map",
+    "main.9ac7f740.js.map": "/static/js/main.9ac7f740.js.map"
   },
   "entrypoints": [
     "static/css/main.ec41864a.css",
-    "static/js/main.ecf6ba96.js"
+    "static/js/main.9ac7f740.js"
   ]
 }
