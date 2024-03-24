@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/smdumar/nxt-trendz/static/css/main.ec41864a.css",
-    "main.js": "/smdumar/nxt-trendz/static/js/main.028abbba.js",
-    "index.html": "/smdumar/nxt-trendz/index.html",
-    "main.ec41864a.css.map": "/smdumar/nxt-trendz/static/css/main.ec41864a.css.map",
-    "main.028abbba.js.map": "/smdumar/nxt-trendz/static/js/main.028abbba.js.map"
+    "main.css": "/smdumar/static/css/main.ec41864a.css",
+    "main.js": "/smdumar/static/js/main.ecf6ba96.js",
+    "index.html": "/smdumar/index.html",
+    "main.ec41864a.css.map": "/smdumar/static/css/main.ec41864a.css.map",
+    "main.ecf6ba96.js.map": "/smdumar/static/js/main.ecf6ba96.js.map"
   },
   "entrypoints": [
     "static/css/main.ec41864a.css",
-    "static/js/main.028abbba.js"
+    "static/js/main.ecf6ba96.js"
   ]
 }
